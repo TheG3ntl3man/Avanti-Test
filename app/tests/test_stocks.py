@@ -6,7 +6,7 @@ import psycopg2
 # from instance.config import app_config
 from datetime import datetime
 from ..app import create_app
-from app.api.models.stock import Stock
+from ..app.api.models.stock import Stock
 from dotenv import load_dotenv
 from loguru import logger
 
